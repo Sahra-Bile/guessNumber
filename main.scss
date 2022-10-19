@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    margin: 0;
+    background-color: wheat;
+.container{
+    height: 100%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+    #inputnumber{
+        margin: 30px;
+        margin-bottom: 5px;
+   }
+   #guessnumber{
+    margin: 30px;
+    margin-bottom: 5px;
+   }
+
+button{
+    &:hover {
+
+    color: lightgray;
+    }
+
+
+}
+}
+
+     
+}
